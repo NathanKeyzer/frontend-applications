@@ -29,9 +29,6 @@
                          <option :value="option.Gewicht" v-for="option in item.Opties" :key="option.Antwoord">{{ option.Antwoord }}</option>
                        </select>
                      </label>
-                     <!-- <select class="" name="">
-                         <option value="">{{ categorie }}</option>
-                     </select> -->
                    </div>
                </div>
            </div>
@@ -40,7 +37,7 @@
 </div>
 </template>
 
-<script>
+<script>// Gewerkt met vue groepje May, Mitch en Daniël
 import json from "../data.json";
 export default {
  data() {
@@ -89,7 +86,7 @@ export default {
        var sum = valueArrays.reduce(function(totaal, currentValue) {
          return Number(totaal) + Number(currentValue);
        }, 0);
-       return Number(
+       return Number( //formule opgezet door Folkert-Jan
          ((1 / (1 + Math.exp(-1 * (-8.57219 + sum)))) * 100).toFixed(2)
        );
      }
@@ -108,7 +105,6 @@ export default {
    },
    logThis: function() {
      json.forEach(question =>{
-       //let questionSet = [];
        questionSet.push(question.Vraag);
        questionSet.push(question.Categorie);
      });
@@ -125,7 +121,6 @@ p {
   -moz-osx-font-smoothing: grayscale;
   text-align: left;
   color: #2c3e50;
-  /* margin-top: 60px; */
   grid-column: 2;
   padding: 0 2rem ;
 }
@@ -170,9 +165,6 @@ label{
   display: grid;
   grid-template-columns: 40% 40%;
 }
-/* .risico{
-  grid-template-columns: 2;
-} */
 .profile-container {
   grid-column-start: 1;
   border-top: 2px solid #273c75;
