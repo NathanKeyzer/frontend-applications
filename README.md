@@ -1,13 +1,13 @@
 ## Table of contents
 * [Opdrachtgever](#opdrachtgever)
-* [Framework keuze](#Framework keuze)
+* [Framework keuze](#Framework)
 * [Onderzoek/Tutorials](#)
 * [Toepassen](#Toepassen)
 
 ## Opdrachtgever
 [Garage2020](http://www.garage2020.nl) vertegenwoordigd door Arjan. Kwam met de opdracht om een risico indicatie app te ontwikkelen. Deze is gebaseerd op een vragenlijst vanuit de Arij. Hiermee kan er bepaald worden of de
 
-## Framework keuze
+## Framework
 
 De keuze voor mijn framework was al snel gemaakt. Dit kwam met name door de presentatie van Hay. Die [Vue.js](https://vuejs.org) goed verkocht.
 
